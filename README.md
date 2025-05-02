@@ -1,6 +1,6 @@
-# African language Speech Recognition
+# Amharic Speech Recognition
 
-In this project we are going to build deep learning model  to process and convert African language (Amharic) speech/voice to text format.
+In this project we are going to build deep learning model  to process and convert Ethiopians Amharic language speech/voice to text format.
 
 ## Table of Content
 - [Introduction](#introduction)
@@ -60,21 +60,3 @@ The folder is being tarcked with DVC and the files are only shown after cloning 
 
 - data_cleaning.py: contain all the data cleaning and modularizing functions.
 - data_viz.py: contain all the visualization related functions.
-
-### Technologies used
-
-- [DVC](https://dvc.org/) : Remote Data Storage
-- [MLflow](https://www.mlflow.org/): Model training and visualization
-- [CML](https://github.com/iterative/cml): Display Model result and usefull information during pull requests
-- [Streamlit](https://streamlit.io/): Display Web interface and dashboard
-
-
-## Contributors
-1. [Celine Hirwa](https://github.com/celine-kanagwa)
-2. [Biniyam Belayneh Demisse](https://github.com/benbel376)
-3. [Michael Tamirie](https://github.com/Micky373)
-4. [Matilda Awuor](https://github.com/Tilda98)
-5. [Meron Kelile](https://github.com/meriab21)
-6. [Abeselom G/kidan ](https://github.com/abeselomg)
-7. [Abubakarr Bangura](https://github.com/abu-bakarr)
-8. [Jeremy Teshome](https://github.com/Jeremy-Tesh)
