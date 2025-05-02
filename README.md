@@ -18,27 +18,21 @@ The design of this intelligent form requires selected people to install an app o
 It is our obligation to create a deep learning model capable of converting speech to text. The model we create should be precise and resistant to background noise.
 This project was created during the fourth week of the Machine Learning training session at 10Academy.
 
-### Instalation
+### To Get Started
 
-- **Install Required Python Moduls**
+- **Requirements**
 ``` 
-git clone https://github.com/Micky373/speech_to_text
-cd speech_to_text
+git clone https://github.com/abu14/end-to-end-speech-to-text/
+cd end-to-end-speech-to-text
 pip install -r requirements.txt
 ```
 
-- **Jupiter Notebook**
-```
-cd notebooks
-jupyter notebook
-```
-
-- **Model Training ui (Not implemented yet)**
+- **Model Training & Versioning**
 ```
 mlflow ui
 ```
 
-- **Dashboard (Not implemented yet)**
+- **Dashboard**
 ```
 streamlit run app.py
 ```
@@ -50,13 +44,3 @@ The folder is being tarcked with DVC and the files are only shown after cloning 
 - **```wav/```** : a folder containing all audio files
 - **```text```** : file contining the metadata (audio file name and cropsonding transcription)
 - **```spk2utt```**, **```trsTest.txt```**, **```utt2spk```**,  **```wav.scp```** : these are files provided with the dataset, Currently they don't have a purpose but could be used for future analysis.
-
-
-### Notebooks
-
-- Preprocessing.ipynb: all the data preprocessing done here before model training.
-
-### Scripts
-
-- data_cleaning.py: contain all the data cleaning and modularizing functions.
-- data_viz.py: contain all the visualization related functions.
